@@ -1,4 +1,5 @@
 Gem::Specification.new do |s|
+  require File.dirname( __FILE__ ) + '/lib/ads_common/api_config'
 
   # Basic information
   s.name = 'google-ads-common'
@@ -7,11 +8,11 @@ Gem::Specification.new do |s|
   s.description = "ads_common provides essential utilities shared by all Ads Ruby client libraries."
 
   # Files and dependencies
-  s.files =  FileList['*.*',
-      'Rakefile',
-      "lib/**/*.rb",
-      "doc/**/*.*",
-      "test/**/*.*"].to_a
+  s.files = []
+  s.files <<  'google-ads-common.gemspec'
+  s.files <<  'Rakefile'
+  s.files <<  'README'
+  s.files += Dir["lib/**/*.rb"] + Dir["doc/**/*.*"] + Dir["test/**/*.*"]
   s.require_path = 'lib'
   s.add_dependency('soap4r', '>= 1.5.8')
   s.add_dependency('httpclient', '>= 2.1.5.2')
