@@ -1,0 +1,47 @@
+0.2.8:
+  - Added .gemspec and updated packaging process.
+  - Removed explicit require for RubyGems, see README.
+  - Added support for v201201.
+
+0.2.7:
+  - Support for GZip compression.
+  - Require google-ads-common 0.6.1 or later from now on.
+
+0.2.6:
+  - Support for v201111.
+  - Require google-ads-common 0.6.0 or later from now on.
+  - Better input parameter validation and error reporting.
+
+0.2.5:
+  - Added postal code targeting examples.
+  - Require google-ads-common 0.5.4 or later from now on.
+
+0.2.4:
+  - Support for proxies.
+  - Require google-ads-common 0.5.1 or later from now on.
+  - Support for v201108.
+  - v201101 is now deprecated.
+
+0.2.3:
+  - Support for v201107.
+
+0.2.2:
+  - Support for OAuth authentication method.
+  - Require google-ads-common 0.5.0 or later from now on.
+
+0.2.1:
+  - Ruby1.9 compatible.
+  - Fixed issue #16 (deep arrays nesting).
+  - Support for v201103 and v201104.
+  - Require google-ads-common 0.4.0 or later from now on.
+
+0.2.0:
+  - Require google-ads-common 0.3.0 or later from now on.
+  - Support for Savon backend 0.9.1.
+
+0.1.1:
+  - Exception generation and error handling.
+  - DFP API v201101 support.
+
+0.1.0:
+  - Initial version with minimal functionality.
